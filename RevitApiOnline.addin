@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Text>Command RevitApiOnline</Text>
+		<Description>RevitApiOnline</Description>
+		<Assembly>ApiOnline\RevitApiOnline.dll</Assembly>
+		<FullClassName>RevitApiOnline.Command</FullClassName>
+		<ClientId>4a1b66d0-b191-40a2-a4fd-55ee415b0329</ClientId>
+		<VendorId>RevitApiOnline</VendorId>
+		<VendorDescription>RevitApiOnline</VendorDescription>
+	</AddIn>
+	<AddIn Type="Application">
+		<Name>Application RevitApiOnline</Name>
+		<Assembly>ApiOnline\RevitApiOnline.dll</Assembly>
+		<FullClassName>RevitApiOnline.App</FullClassName>
+		<ClientId>d046b2b0-50f5-47fb-8c73-65b3e4fb02b5</ClientId>
+		<VendorId>RevitApiOnline</VendorId>
+		<VendorDescription>RevitApiOnline</VendorDescription>
+	</AddIn>
+</RevitAddIns>
