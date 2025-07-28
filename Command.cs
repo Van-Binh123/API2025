@@ -24,7 +24,7 @@ namespace RevitApiOnline
         {
             UIDocument uidoc = commandData.Application.ActiveUIDocument;
             Document doc = uidoc.Document;
-
+            //
             #region CreateWall
 
             //ICollection<ElementId> ids = uidoc.Selection.GetElementIds();
